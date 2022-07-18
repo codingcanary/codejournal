@@ -1,0 +1,56 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: Rubik, Arial;
+    font-size: 20px;
+  }
+  
+  form {
+    background-color: burlywood;
+    text-align: center;
+    line-height: 30px;
+    height: 80%;
+    overflow: auto;
+  }
+  
+  form hr {
+    width: 30%;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+  }
+
+#coffee-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 15%
+}
+
+  #burger {
+    max-height: 30%;
+  }
+  
+  #overlay { /*background color??*/
+    width: 90%;
+    margin: 3% auto;
+    height: 80vh;
+    background-color: burlywood;
+    border-radius: 120px;
+  }
+  
+  #logo {
+    height: 100px;
+    display: block;
+    margin: auto;
+  }
+  
+  
+  .toppings label, .cheesy label {
+    margin-right: 25px;
+  }
+  

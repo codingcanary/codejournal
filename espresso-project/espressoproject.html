@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+        <head>
+            <meta charset="utf-8">
+            <link rel="stylesheet" type="text/css" href="styling.css">
+            <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+            <title>Self Espresso</title>
+        </head>
+        <body>
+            <div class="menu">
+            <section id="overlay">
+                <!-- image -->
+                
+                <!-- add submissions html -->
+                <form action="submission.espresso.html" method="POST">
+                <h1>SELF ESPRESSO</h1>
+                <p class="established">Est. 2022</p>
+            <hr class="top">
+                <h3>Type of Beverage</h3> <!-- text edit, more descriptive? -->
+                <section class="beverage" required>
+                        <br>
+                    <input type="radio" name="beverage" id="beverage" value="latte">
+                    <label for="latte">Latte</label>
+                    <input type="radio" name="beverage" id="beverage" value="macchiato">
+                    <label for="macchiato">Macchiato</label>
+                    <input type="radio" name="beverage" id="beverage" value="cappuccino">
+                    <label for="cappuccino">Cappuccino</label>
+                    <input type="radio" name="beverage" id="beverage" value="americano">
+                    <label for="americano">Americano</label>
+                    </section>
+                <hr>
+                    <!-- add drop down for shots -->
+                <h3>Blend</h3> 
+                <section class="blend" required> <!-- radio -->
+                        <br>
+                    <input type="radio" name="blend" id="blend" value="light">
+                    <label for="light">Light</label> 
+                    <input type="radio" name="blend" id="blend" value="medium">
+                    <label for="medium">Medium</label>
+                    <input type="radio" name="blend" id="blend" value="dark">
+                    <label for="dark">Dark</label>
+                    <input type="radio" name="blend" id="blend" value="double-shot-only">
+                    <label for="double-shot-only">Double Shot Only</label>
+                    </section>
+                <hr>
+                    <!-- add type of beverage -->
+                <h3>Temperature</h3> <!-- change h1 to h2 -->
+                <section class="temperature" required>
+                        <br>
+                    <input type="radio" name="hot" id="temperature" value="hot">
+                    <label for="hot">Hot</label>
+                    <input type="radio" name="iced" id="temperature" value="iced">
+                    <label for="iced">Iced</label>
+                    <input type="radio" name="blended" id="temperature" value="blended">
+                    <label for="blended">Blended</label>
+                </section>
+            <hr>
+                <h3>Dairy</h3>
+                <section class="dairy"> <!-- possible bug below -->
+                        <br>
+                    <input type="radio" name="2%" id="dairy" value="2%">
+                    <label for="2%">2%</label>
+                    <input type="radio" name="almond" id="dairy" value="almond">
+                    <label for="almond">Almond</label>
+                    <input type="radio" name="oat" id="dairy" value="oat">
+                    <label for="oat">Oat</label>
+                    <input type="radio" name="cashew" id="dairy" value="cashew">
+                    <label for="cashew">Cashew</label>
+                    <input type="radio" name="coconut" id="dairy" value="coconut">
+                    <label for="coconut">Coconut</label>
+                </section>
+            <hr>
+                <h3>Flavor</h3> <!-- checkboxes -->
+                <section class="flavor"> <!-- possible bug below -->
+                        <br>
+                    <input type="checkbox" name="flavor" id="french-vanilla" value="french-vanilla">
+                    <label for="french-vanilla">French Vanilla</label>
+                    <input type="checkbox" name="flavor" id="hazelnut" value="hazelnut">
+                    <label for="hazelnut">Hazelnut</label>
+                        <br>
+                    <input type="checkbox" name="flavor" id="brown-sugar" value="brown-sugar">
+                    <label for="brown-sugar">Brown Sugar</label>
+                    <input type="checkbox" name="flavor" id="caramel" value="caramel">
+                    <label for="caramel">Caramel</label>
+                        <br>
+                    <input type="checkbox" name="flavor" id="pumpkin-spice" value="pumpkin-spice">
+                    <label for="pumpkin-spice">Pumpkin Spice</label>
+                    <input type="checkbox" name="flavor" id="mocha" value="mocha">
+                    <label for="mocha">Mocha</label>
+                        <br>
+                    <input type="checkbox" name="flavor" id="butter-pecan" value="butter-pecan">
+                    <label for="butter-pecan">Butter Pecan</label>
+                    <input type="checkbox" name="flavor" id="plain" value="plain">
+                    <label for="plain">Plain</label>
+                </section>
+            <hr>
+                <section class="textbox">
+                <label for="extra">Anything else you want to add?</label>
+            <br>
+            <textarea id="textbox" name="textbox" rows="3" cols="40"></textarea>
+            </section>
+            <section class="submission"> <!-- work on submission page -->
+                <input type="submit" value="Submit">
+            </section>
+                <hr class="bottom-line">
+                
+                <!-- footer -->
+                
+            </form>
+            </section>
+           </div>
+        </body>
+    </html>

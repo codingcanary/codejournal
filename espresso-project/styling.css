@@ -1,0 +1,87 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-size: 20px;
+    padding: 20px;
+}
+
+form {
+    background-color: burlywood;
+    text-align: center;
+    line-height: 30px;
+    height: 90%;
+    overflow: auto;
+    width: 80%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  form hr {
+    width: 80px;
+  }
+
+
+h1 {
+    font-size: 40px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+h1, h2 {
+    font-family: Impact;
+}
+
+h3 {
+    margin-top: 4%;
+    margin-bottom: 0px;
+} 
+
+label {
+    font-size: 18px;
+}
+
+.top-line {
+    width: 80%;
+    margin-top: 0%;
+}
+
+.top {
+    height: 2px;
+    width: 94%;
+    background-color: brown;
+    border-color: brown;
+}
+
+.beverage {
+    margin: auto;
+}
+
+.bottom-line {
+    height: 2px;
+    width: 94%;
+    background-color: brown;
+    border-color: brown;
+}
+
+#textbox {
+    font-family: helvetica, bold;
+    font-weight: bold;
+}
+
+
+.menu {
+    height: 60%;
+    width: 95%;
+    background-color: burlywood;
+    margin-top: 3% auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+
+
+  .flavor label {
+    margin-right: 25px;
+  }
